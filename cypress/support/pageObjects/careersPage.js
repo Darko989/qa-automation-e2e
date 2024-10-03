@@ -30,10 +30,10 @@ class CareersPage {
                 const positionsArray = [];
                 $titles.each((index, element) => {
                     const jobTitle = Cypress.$(element).text();
-                
-                    positionsArray.push({ title: jobTitle});
+                    positionsArray.push(jobTitle);
                 });
-                cy.writeFile('cypress/fixtures/serbia_positions.txt', positionsArray);
+           
+                cy.writeFile('cypress/fixtures/serbia_positions.txt', positionsArray.join('\n'));
             });
     }
 }
