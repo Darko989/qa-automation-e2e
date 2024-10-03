@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Cypress files
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+logs/
+*.log
+
+# Environment variable files
+.env
+.env.local
+
+# Temporary files
+tmp/
+.DS_Store
+

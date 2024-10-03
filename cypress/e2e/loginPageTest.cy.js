@@ -8,6 +8,6 @@ describe('Holycode Website', () => {
     homePage.verifyH1Tag(); 
 
     // Assert
-    cy.url().should('eq', 'https://www.holycode.com/'); 
+    homePage.verifyUrl(); 
   });
 });

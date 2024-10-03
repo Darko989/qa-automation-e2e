@@ -10,7 +10,9 @@ describe('Holycode Careers Page', () => {
     careersPage.visit(); 
     
     // Act
-    careersPage.filterForQAPositions(); 
+    careersPage.filterForQAPositions();
+     
+    //Assert
     careersPage.scrollAndAssertSeniorQATeam();
 });
 });

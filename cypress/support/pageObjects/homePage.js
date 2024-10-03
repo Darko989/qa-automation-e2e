@@ -12,6 +12,10 @@ class HomePage {
     verifyPageTitle() {
       cy.get('h1').should('have.text', 'Tech Solutions to scale'); 
     }
+
+    verifyUrl() {
+      cy.url().should('eq', 'https://www.holycode.com/');
+    }
   
     verifyH1Tag() {
       cy.get('h1').should('exist'); 
