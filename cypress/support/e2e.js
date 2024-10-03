@@ -15,6 +15,11 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+beforeEach(() => {
+    cy.visit('https://www.holycode.com/');
+    cy.acceptCookies();
+});
+
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

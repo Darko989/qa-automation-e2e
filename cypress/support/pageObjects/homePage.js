@@ -1,6 +1,6 @@
 class HomePage {
     visit() {
-      cy.visit('https://www.holycode.com/');
+      cy.visit('/');
       this.acceptCookies(); 
     }
   
