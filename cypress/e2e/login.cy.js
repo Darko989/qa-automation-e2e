@@ -4,8 +4,6 @@ describe('Holycode Website', () => {
   const homePage = new HomePage();
 
   it('should verify the page title is "Tech Solutions to scale"', () => {
-    // Arrange
-    homePage.visit();
     // Act
     homePage.verifyH1Tag(); 
 
