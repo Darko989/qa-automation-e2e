@@ -12,7 +12,7 @@ class CareersPage {
     }
 
     openAllPositions() {
-        cy.get('.u-txt--center > .c-btn').click(); // Click to open all positions
+        cy.get('.u-txt--center > .c-btn').click(); 
     }
 
     scrollAndAssertSeniorQATeam() {
