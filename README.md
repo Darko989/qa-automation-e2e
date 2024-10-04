@@ -48,5 +48,10 @@ To run a specific test file, you can use the `--spec` option. For example: `npx 
 3. **Open All Positions**: Clicks to expand all positions on the page.
 4. **Save Job Titles**: Collects all job titles and saves them to a text file.
 
+## Docker Consideration
+This project is not set up using Docker to keep things simple and focus on the main task. 
+However, Cypress can easily be integrated with Docker, which would be ideal for Continuous Integration/Continuous Deployment (CI/CD) pipelines. 
+If needed, a Docker setup can be provided for running the tests in isolated environments, ensuring consistency across machines.
+
 ## Repository
 The full project can be found on [GitHub](https://github.com/Darko989/qa-automation-e2e).
